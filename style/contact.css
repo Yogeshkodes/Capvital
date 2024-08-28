@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans";
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Contact PAge */
+
+.page-heading {
+  text-align: center;
+  background-image: url(/assests/page-heading-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 230px 0px 150px 0px;
+  color: #fff;
+}
+
+.page-heading h1 {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 22px;
+}
+
+.page-heading span {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  display: block;
+}
+
+/* Contact Information */
+
+.contact-information {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-information .contact-item {
+  padding: 60px 30px;
+  background-color: #f7f7f7;
+  text-align: center;
+  width: 25%;
+}
+
+.contact-information .contact-item i {
+  color: #a4c639;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.contact-information .contact-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.contact-information .contact-item p {
+  margin-bottom: 20px;
+  color: #93978e;
+  word-wrap: break-word;
+}
+
+.contact-information .contact-item a {
+  font-weight: 600;
+  color: #a4c639;
+  font-size: 15px;
+}
+
+.contact-section {
+  padding-bottom: 150px;
+}
+/* call back form */
+/* map */
+
+#map {
+  padding-bottom: 150px;
+}

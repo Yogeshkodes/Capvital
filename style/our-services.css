@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans";
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.line-break {
+  border-bottom: 1px solid #ededed;
+}
+
+/* Our services */
+
+section h1 {
+  color: #000;
+}
+
+section h1 {
+  padding: 3% 0 0 5%;
+  font-size: 32px;
+}
+
+section em {
+  color: #a4c639;
+  font-style: normal;
+}
+
+section .main-box {
+  grid-template-columns: 4;
+  padding: 3% 5% 0 5%;
+}
+section {
+  padding-bottom: 10%;
+}
+.main-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 20px; */
+}
+
+.box {
+  padding: 20px 10px;
+  text-align: center;
+  /* border-radius: 8px; */
+  height: 315px;
+}
+/* First and third rows */
+.main-box .box:nth-child(8n + 1),
+.main-box .box:nth-child(8n + 3),
+.main-box .box:nth-child(8n + 6),
+.main-box .box:nth-child(8n + 8) {
+  background-color: #63971c;
+}
+
+.main-box .box:nth-child(8n + 2),
+.main-box .box:nth-child(8n + 4),
+.main-box .box:nth-child(8n + 5),
+.main-box .box:nth-child(8n + 7) {
+  background-color: #a4c639;
+}
+
+/* Second and fourth rows */
+.main-box .box:nth-child(8n + 10),
+.main-box .box:nth-child(8n + 13) {
+  background-color: #a4c639;
+}
+
+.main-box .box:nth-child(8n + 11) {
+  background-color: #63971c;
+}
+.main-box .box:nth-child(8n + 14),
+.main-box .box:nth-child(8n + 16) {
+  background-color: #ededed;
+}
+
+.main-box .box:nth-child(8n + 15) {
+  background-color: #f2f2f2;
+}
+
+.box {
+  padding: 20px;
+  text-align: left;
+  height: 200px; /* Adjust as needed */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box span {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.box p {
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+
+  max-width: 90%;
+}
